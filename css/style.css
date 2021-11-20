@@ -58,6 +58,10 @@ header .fa-bars
     font-size: 35px;
     color: white;
 }
+
+svg{
+    margin-top: 500px;
+}
 }
 
 .menu ul li a
@@ -85,9 +89,13 @@ header .fa-bars
 {
     flex-wrap: wrap;
     display: flex;
-    height: 40vh;
     margin-top: 10px;
     padding: 80px;
+}
+
+.content .intro-page
+{
+    flex-basis: 50%;
 }
 
 
@@ -122,7 +130,20 @@ header .fa-bars
        transition: 2s ease;
     }
 
+    .imag
+    {
+        flex-basis: 40%;
+        background: #00cba9;
+        margin-left: 50px;
+    }
+
     svg
     {
-        background: white;
+        margin-top: 10px;
+        height: 100%;
+    }
+
+    .about
+    {
+        width: 100%;
     }

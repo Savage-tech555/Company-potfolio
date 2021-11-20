@@ -15,7 +15,7 @@ header
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background: #0099ff;
+    background: #00cba9;
     align-items: center;
     border-radius: 5px;
 }
@@ -102,22 +102,22 @@ header .fa-bars
         
     
     .intro-page span{
-        color: #0099ff;
+        color: #00cba9;
         font-family:   'Bahnschrift Condensed';
     }
     
     .intro-page a
     {
         text-decoration: none;
-        border: 1px solid #0099ff;
-        color: #0099ff;
+        border: 1px solid #00cba9;
+        color: #00cba9;
         padding: 2px 8px 2px 8px;
         font-family:   'Bahnschrift Condensed';
     }
     
     .intro-page a:hover
     {
-       background: rgb(5, 139, 192);
+       background: #00cba9;
        color: white;
        transition: 2s ease;
     }

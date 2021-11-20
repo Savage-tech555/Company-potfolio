@@ -1,0 +1,9 @@
+body, html
+{
+    margin: 0;
+    padding: 5px;
+    font-family: 'Bahnschrift Condensed';
+    background: #f7f7f7;
+    background-position: center;
+    background-size: cover;
+}

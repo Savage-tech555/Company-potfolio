@@ -62,6 +62,17 @@ header .fa-bars
 svg{
     margin-top: 500px;
 }
+
+.project .display .txt
+{
+    width: 59%;
+    background: #00cba9;
+    padding: 20px;
+    padding-top: 50px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-right: 80px;
+}
 }
 
 .menu ul li a
@@ -146,4 +157,78 @@ header .fa-bars
     .about
     {
         width: 100%;
+    }
+
+    .project
+    {  
+        color: white;
+    }
+
+    .project .display
+    {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+        padding: 5px;
+        width: 100%;
+        grid-gap: 20px;
+    }
+
+    .project .display .txt
+    {
+        width: 59%;
+        background: #00cba9;
+        padding: 20px;
+        padding-top: 50px;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-left: 80px;
+    }
+
+    .project .display .txt a
+    {
+        text-decoration: none;
+        color: white;
+        border: 1px solid white;
+        padding: 5px;
+    }
+
+    .project .display .txt p
+    {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .project .display .image
+    {
+        text-align: center;
+        width: 60%;
+        height: 40vh;
+        background: rgba(0, 0, 0, 0.8);
+        margin-top: 40px;
+        border-radius: 5px
+    }
+
+    @media only screen and (max-width: 600px) 
+    {
+        .project .display .image
+        {
+            text-align: center;
+            width: 60%;
+            height: 40vh;
+            background: rgba(0, 0, 0, 0.8);
+            margin-top: 40px;
+            border-radius: 5px;
+            margin-left: 13px;
+        }
+
+        .project .display .txt
+        {
+            width: 59%;
+            background: #00cba9;
+            padding: 20px;
+            padding-top: 50px;
+            border-radius: 5px;
+            margin-top: 20px;
+            margin-left: -5px;
+        }
     }

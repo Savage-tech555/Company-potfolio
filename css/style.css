@@ -12,6 +12,8 @@ body, html
 
 header
 {
+    width: 100%;
+    position: fixed;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -35,10 +37,18 @@ header .logo h2
 {
     padding-left: 10px;
     padding-right: 10px;
+    margin-left: 30px;
 }
 
 .menu ul li a
 {
     text-decoration: none;
     color: white;
+}
+
+.menu ul li a i
+{
+    font-size: 25px;
+    margin-left: 40px;
+    margin-top: -5px;
 }

@@ -15,7 +15,7 @@ header
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background: red;
+    background: #0099ff;
     align-items: center;
     border-radius: 5px;
 }
@@ -43,16 +43,20 @@ header .logo h2
 {
     .menu ul li
 {
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-left: 10px;
-    font-size: 13px;
+    display: none;
 }
 
 .menu ul li a i
 {
     font-size: 20px;
     margin-right: 40px;
+}
+
+header .fa-bars
+{
+    display: block;
+    font-size: 35px;
+    color: white;
 }
 }
 
@@ -68,10 +72,57 @@ header .logo h2
     margin-top: -5px;
 }
 
+header .fa-bars
+{
+    display: none;
+    font-size: 35px;
+    color: white;
+}
+
+/* content */
+
 .content
 {
-    background: blue;
-    height: 50vh;
+    flex-wrap: wrap;
+    display: flex;
+    height: 40vh;
     margin-top: 10px;
     padding: 80px;
 }
+
+
+.intro-page h2{
+    font-size: 45px;
+    }
+
+.intro-page h4{
+    font-size: 22px;
+    font-family:   'Bahnschrift Condensed';
+    }
+        
+    
+    .intro-page span{
+        color: #0099ff;
+        font-family:   'Bahnschrift Condensed';
+    }
+    
+    .intro-page a
+    {
+        text-decoration: none;
+        border: 1px solid #0099ff;
+        color: #0099ff;
+        padding: 2px 8px 2px 8px;
+        font-family:   'Bahnschrift Condensed';
+    }
+    
+    .intro-page a:hover
+    {
+       background: rgb(5, 139, 192);
+       color: white;
+       transition: 2s ease;
+    }
+
+    svg
+    {
+        background: white;
+    }

@@ -102,6 +102,11 @@ header .fa-bars
     font-size: 35px;
     color: white;
 }
+
+.content .intro-page
+{
+    background: red;
+}
 }
 
 /* content */
@@ -116,8 +121,9 @@ header .fa-bars
 
 .content .intro-page
 {
-    flex-basis: 50%;
-    margin-left: 50px;
+    padding: 10px;
+    flex-basis: 60%;
+    background: red;
 }
 
 
@@ -179,7 +185,6 @@ header .fa-bars
     {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
-        padding: 5px;
         width: 100%;
         grid-gap: 20px;
     }
@@ -192,7 +197,6 @@ header .fa-bars
         padding-top: 50px;
         border-radius: 5px;
         margin-top: 20px;
-        margin-left: 80px;
     }
 
     .project .display .txt a

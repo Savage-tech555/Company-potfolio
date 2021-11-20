@@ -41,15 +41,29 @@ header .logo h2
 
 @media only screen and (max-width: 600px) 
 {
-    .menu ul li
-{
-    display: none;
+
 }
+
+@media only screen and (max-width: 600px) 
+{
 
 .menu ul li a i
 {
     font-size: 20px;
     margin-right: 40px;
+}
+
+.menu
+{
+    position: absolute;
+    background: red;
+    top: -90px;
+    width: 90%;
+}
+
+.menu-toggle
+{
+   margin-top: 90px;
 }
 
 header .fa-bars
@@ -104,8 +118,11 @@ header .fa-bars
 {
     flex-wrap: wrap;
     display: flex;
-    margin-top: 10px;
     padding: 80px;
+    background: #00cba9;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 5px;
 }
 
 .content .intro-page
@@ -126,8 +143,25 @@ header .fa-bars
         
     
     .intro-page span{
-        color: #00cba9;
+        color: white;
         font-family:   'Bahnschrift Condensed';
+    }
+
+    @media only screen and (max-width: 600px) 
+    {
+        .intro-page h2{
+            font-size: 35px;
+            width: 200%;
+            }
+        .intro-page p
+        {
+            width: 200%;
+        }
+        .intro-page h4{
+            width: 150%;
+            font-size: 17px;
+            font-family:   'Bahnschrift Condensed';
+            }
     }
     
     .intro-page a
@@ -182,6 +216,7 @@ header .fa-bars
         font-size: 20px;
         margin-top: 10px;
         padding-left: 20px;
+        padding: 8px;
         display: block;
         color: white;
     }

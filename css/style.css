@@ -419,3 +419,96 @@ img
 }
 
 }
+
+/* about */
+
+.about-page
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.about-page .company
+{
+}
+
+.about-page .company h2
+{
+    font-size: 60px;
+    padding: 20px;
+    padding-left: 20px;
+    border-left: 7px solid #00cba9;
+}
+
+.about-page .company p
+{
+    margin-top: -30px;
+    padding: 5px;
+    width: 65%;
+}
+
+.about-page .company a
+{
+    text-decoration: none;
+    color: #00cba9;
+    border: 1px solid #00cba9;
+    padding: 8px;
+}
+
+.cont
+{
+    display: flex;
+}
+
+.our-work
+{
+    flex-basis: 25%;
+    background: #00cba9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+.our-work .icon
+{
+    padding: 10px;
+    position: relative;
+    margin: 5px;
+}
+
+.our-work .icon i
+{
+    font-size: 60px;
+    margin-top: 10px;
+    color: white;
+}
+
+.our-work .line
+{
+    padding: 10px;
+}
+
+.our-work .line h4
+{
+    font-size: 20px;
+    padding: 0 20px 0 20px;
+}
+
+.our-work .line p
+{
+    margin-top: -20px;
+    padding: 0 20px 0 20px;
+}
+
+@media only screen and (max-width: 600px) 
+{
+    .our-work
+{
+    flex-basis: 100%;
+    background: #00cba9;
+    padding: 20px;
+    margin-top: 20px;
+}
+}

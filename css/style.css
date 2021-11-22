@@ -432,13 +432,15 @@ img
 
 .about-page .company
 {
+    flex-basis: 20%;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .about-page .company h2
 {
-    font-size: 60px;
+    font-size: 50px;
     padding: 20px;
-    padding-left: 20px;
     border-left: 7px solid #00cba9;
 }
 
@@ -504,6 +506,11 @@ img
 
 @media only screen and (max-width: 600px) 
 {
+    .about-page .company
+    {
+      flex-basis: 20%;
+    }
+
     .our-work
 {
     flex-basis: 100%;

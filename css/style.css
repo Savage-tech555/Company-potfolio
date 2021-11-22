@@ -551,9 +551,8 @@ img
 
 .display .all
 {
-    padding: 50px;
     text-align: center;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(162, 162, 162, 0.3);
     border-radius: 30px;
 }
 
@@ -562,7 +561,6 @@ img
     text-align: center;
     font-size: 90px;
     width: 100%;
-    padding: 10px;
 }
 
 

@@ -407,7 +407,9 @@ img
 
 #title
 {
-    text-align: center;
+    padding: 20px;
+    padding-left: 50px;
+    border-left: 5px solid black;
     color: #00cba9;
 }
 
@@ -424,10 +426,16 @@ img
 
 .about-page
 {
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 10px;
+    background: url("../background/pexels-christina-morillo-1181359.jpg"), rgba(0, 0, 0, 0.5);
+    color: white;
+    background-position: center;
+    background-size: cover;
 }
 
 .about-page .company

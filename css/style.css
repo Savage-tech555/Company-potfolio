@@ -66,7 +66,7 @@ header
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background: white;
+    background: #00cba9;
     color: black;
     align-items: center;
     z-index: 2;
@@ -306,7 +306,7 @@ textarea
 
 footer
 {
-    background-color: white;
+    background-color: #00cba9;
     color: black;
     display: flex;
     flex-wrap: wrap;
@@ -329,14 +329,14 @@ footer ul li
 
 footer ul li a
 {
-    color: gray;
+    color: rgb(48, 46, 46);
     text-decoration: none;
 }
 
 footer ul li i
 {
     padding: 15px;
-    color: gray;
+    color: rgb(48, 46, 46);
 }
 
 
@@ -367,7 +367,7 @@ footer ul li i
 
 footer p
 {
-    color: gray;
+    color: rgb(48, 46, 46);
 }
 
 

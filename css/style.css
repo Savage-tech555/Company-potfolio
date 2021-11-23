@@ -166,6 +166,7 @@ header #btn
     background: none;
     display: block;
     border: none;
+    cursor: pointer;
 }
 
 }

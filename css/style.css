@@ -116,7 +116,12 @@ header #btn
 header .fa-bars
 {
     font-size: 30px;
+<<<<<<< HEAD
+    color: white;
+    cursor: pointer;
+=======
     color: black;
+>>>>>>> b1583f700397dfdc7ed1a18e3a8f940c3dc5b512
 }
 
 header .fa-envelope
@@ -266,6 +271,7 @@ form button
     margin: 20px;
     transition: 2s ease;
     font-weight: 600;
+    cursor: pointer;
 }
 
 form button:hover
@@ -315,7 +321,12 @@ footer
     border-radius: 5px;
     box-shadow: 5px 5px 7px black;
 }
-
+address{
+    padding-left: 50px;
+}
+.footer-about p{
+    padding-left: 50px;
+}
 footer ul
 {
     list-style: none;
@@ -363,6 +374,7 @@ footer ul li i
    color: #00cba9;
    padding: 10px;
    height: 40px;
+   cursor: pointer;
 }
 
 footer p

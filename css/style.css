@@ -2,7 +2,7 @@ body, html
 {
     margin: 0;
     font-family: 'Bahnschrift Condensed';
-    background: white;
+    background: rgb(218, 203, 203);
     color: gray;
     background-position: center;
     background-size: cover;
@@ -547,7 +547,11 @@ img
     border: 1px solid #00cba9;
     padding: 8px;
 }
-
+.about-page .company a:hover{
+    background: white;
+    border: 2px solid white;
+    transition: 2s ease;
+}
 .cont
 {
     display: flex;
@@ -589,11 +593,6 @@ img
     padding: 0 20px 0 20px;
 }
 
-.our-work .line p
-{
-    margin-top: -20px;
-    padding: 0 20px 0 20px;
-}
 
 @media only screen and (max-width: 600px) 
 {
@@ -625,7 +624,36 @@ img
     padding: 5px;
     margin-left: 25px;
 }
-
+.about-page a:hover{
+    background: white;
+    border: 2px solid white;
+    transition: 2s ease;
+}
+.line .container{
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 10px;
+}
+.skills{
+    text-align: right;
+    color: white;
+}
+.webdev{
+    width: 98%;
+    background-color: #04AA6D;
+    border-radius: 10px;
+}
+.webdes{
+    width: 88%;
+    background-color: #2196F3;
+    border-radius: 10px;
+}
+.grapdes{
+    width: 80%;
+    background-color: #f44336;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
 /* after */
 
 .display
@@ -667,6 +695,7 @@ img
    width: 80%;
    padding-top: 15px;
    padding-bottom: 15px;
+   font-size: 21px;
 }
 
 .display .all a
@@ -678,6 +707,11 @@ img
     border: 2px solid #00cba9;
     padding: 10px;
     margin-left: 15px;
+}
+.display .all a:hover{
+    background: white;
+    border: 2px solid white;
+    transition: 2s ease;
 }
 
 .img

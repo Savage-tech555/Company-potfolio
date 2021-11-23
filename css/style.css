@@ -1,9 +1,9 @@
 body, html
 {
     margin: 0;
-    padding: 5px;
     font-family: 'Bahnschrift Condensed';
-    background: #f7f7f7;
+    background: white;
+    color: gray;
     background-position: center;
     background-size: cover;
     overflow-y: scroll;
@@ -66,16 +66,16 @@ header
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background: #00cba9;
+    background: white;
+    color: black;
     align-items: center;
-    border-radius: 5px;
     z-index: 2;
 }
 
 header .logo
 {
     font-size: 30px;
-    color: white;
+    color: black\;
 }
 
 
@@ -95,7 +95,7 @@ header .menu li
 header .menu li a
 {
     text-decoration: none;
-    color: white;
+    color: black;
     transition: 2s ease;
     padding: 10px;
     font-weight: 600;
@@ -116,7 +116,7 @@ header #btn
 header .fa-bars
 {
     font-size: 30px;
-    color: white;
+    color: black;
 }
 
 header .fa-envelope
@@ -138,7 +138,7 @@ header .fa-envelope:hover
 {
     position: absolute;
     list-style: none;
-    background: #00cba9;
+    background: white;
     top: 90px;
     width: 80%;
     display: none;
@@ -219,6 +219,7 @@ header #btn
    top: 10px;
     font-size: 25px;
     font-weight: 500;
+    color: black;
 }
 
 .lac p
@@ -238,9 +239,9 @@ input
     width: 95%;
     height: 40px;
     margin-bottom: 20px;
-    outline-color: #00cba9;
+    outline-color: #f7f7f7;
     padding-left: 20px;
-    border: 3px solid#00cba9;
+    border: 3px solid #f7f7f7;
     font-weight: 600;
 }
 
@@ -249,15 +250,15 @@ textarea
     width: 95%;
     padding-left: 20px;
     margin-top: 20px;
-    outline-color: #00cba9;
-    border: 3px solid#00cba9;
+    outline-color: #f7f7f7;
+    border: 3px solid #f7f7f7;
     font-weight: 600;
 }
 
 form button
 {
-    background:  #00cba9;
-    color: white;
+    border: 2px solid #00cba9;
+    color: #00cba9;
     padding: 10px;  
     border: 2px solid #00cba9;
     width: 60%;
@@ -304,13 +305,14 @@ textarea
 
 footer
 {
-    background-color: #00cba9;
-    color: white;
+    background-color: white;
+    color: black;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 25px;
     border-radius: 5px;
+    box-shadow: 5px 5px 7px black;
 }
 
 footer ul
@@ -326,13 +328,14 @@ footer ul li
 
 footer ul li a
 {
-    color: white;
+    color: gray;
     text-decoration: none;
 }
 
 footer ul li i
 {
     padding: 15px;
+    color: gray;
 }
 
 
@@ -349,35 +352,51 @@ footer ul li i
 .subs input
 {
     width: 60%;
+    border: 2px solid #f7f7f7;
 }
 
 .subs button
 {
-   background: white;
+   
+   border: 2px solid #00cba9;
    color: #00cba9;
-   border: none;
    padding: 10px;
    height: 40px;
+}
+
+footer p
+{
+    color: gray;
 }
 
 
 /* team */
 
+.box
+{
+    padding: 15px;
+}
+
 .team
 {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
     color: white;
-    padding: 10px;
+    padding: 15px 0 15px 0;
+    margin-top: 20px;
 }
 
 .members
 {
     width: 24%;
-   background: black;
+   background: transparent;
     margin: 5px;
     margin-top: 10px;
     border-radius: 5px;
+    margin-bottom: 20px;
+    background: transparent;
+    overflow: hidden;
 }
 
 img
@@ -390,17 +409,32 @@ img
 {
     position: relative;
     text-align: center;
-    background: linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0.0));
-    margin-top: -140px;
+    background: white;
+    border: 3px solid #f7f7f7;
+    color: black;
     padding: 10px;
     z-index: 1;
     border-radius: 5px;
+    width: 80%;
+    margin: auto;
+    margin-top: -80px;
+
+}
+
+.team .details h3
+{
+    font-size: 20px;
+}
+
+.team .details p
+{
+    color: gray;
 }
 
 .team .details i
 {
-    font-size: 18px;
-    color: white;
+    font-size: 20px;
+    color: black;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -422,28 +456,45 @@ img
 
 }
 
+.team-intro
+{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 5px;
+}
+
+.team-intro h2
+{
+    font-size: 35px;
+    color: black;
+}
 /* about */
 
 .about-page
 {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 10px;
     background: url("../background/pexels-christina-morillo-1181359.jpg"), rgba(0, 0, 0, 0.5);
     color: white;
     background-position: center;
     background-size: cover;
+    padding: 10px;
+    margin-bottom: 20px;
 }
+
+.page
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;  
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+}
+
 
 .about-page .company
 {
     flex-basis: 50%;
     padding: 10px;
-    background: rgba(0, 0, 0, 0.5);
-    border-radius: 5px;
 }
 
 .about-page .company h2
@@ -475,16 +526,17 @@ img
 
 .our-work
 {
-    background: rgba(0, 0, 0, 0.3);
     flex-basis: 25%;
-    padding: 20px;
     border-radius: 5px;
 }
 
+.our-work h2
+{
+    margin-left: 40px;
+}
 
 .our-work .icon
 {
-    padding: 10px;
     position: relative;
     margin: 5px;
 }
@@ -493,6 +545,7 @@ img
 {
     font-size: 60px;
     margin-top: 10px;
+    margin-left: 20px;
     color: white;
 }
 
@@ -503,7 +556,7 @@ img
 
 .our-work .line h4
 {
-    font-size: 20px;
+    font-size: 15px;
     padding: 0 20px 0 20px;
 }
 
@@ -517,12 +570,12 @@ img
 {
     .about-page .company
     {
-      flex-basis: 20%;
+      flex-basis: 30%;
     }
 
     .our-work
 {
-    flex-basis: 100%;
+    flex-basis: 80%;
     padding: 20px;
     margin-top: 20px;
 }
@@ -531,13 +584,20 @@ img
 {
     margin-top: -30px;
     padding: 5px;
-    width: 120%;
+    width: 96%;
+}
 }
 
-
-
+.about-page a
+{
+    text-decoration: none;
+    color: #00cba9;
+    border: 1px solid #00cba9;
+    padding: 5px;
+    margin-left: 25px;
 }
 
+/* after */
 
 .display
 {
@@ -545,29 +605,118 @@ img
     color: white;
     background-position: center;
     background-size: cover;
-    margin-top: 10px;
-    padding: 10px;
+    padding: 5px;
 }
 
+.flexin
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.8);
+}
 .display .all
 {
-    text-align: center;
-    background: rgba(162, 162, 162, 0.3);
-    border-radius: 30px;
+    flex-basis: 50%;
+    padding: 10px;
 }
 
 .display h1
 {
-    text-align: center;
-    font-size: 90px;
+    font-size: 100px;
+    font-weight: 800;
     width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
-
-.display a
+.display .all p
 {
+   position: relative;
+   top: -60px;
+   width: 80%;
+   padding-top: 15px;
+   padding-bottom: 15px;
+}
+
+.display .all a
+{
+    position: relative;
+   top: -60px;
     text-decoration: none;
-    background: white;
     color: #00cba9;
+    border: 2px solid #00cba9;
     padding: 10px;
+    margin-left: 15px;
+}
+
+.img
+{
+    margin-top: 50px;
+    padding: 5px;
+    width: 30%;
+    text-align: center;
+    height: 70vh;
+}
+
+.img .image-space
+{
+    background: rgba(0, 0, 0, 0.5);
+    height: 70vh;
+}
+
+.img .image-space img
+{
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 600px)
+{
+    .img
+{
+    padding: 5px;
+    margin-top: 50px;
+    width: 100%;
+    height: 60vh;
+}
+
+.img .image-space
+{
+    background: rgba(0, 0, 0, 0.5);
+    height: 60vh;
+}
+    .display
+{
+    background: url("../background/pexels-vlad-bagacian-3987066.jpg");
+    color: white;
+    background-position: center;
+    background-size: cover;
+    padding: 5px;
+}
+
+.flexin
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+}
+
+@media only screen and (max-width: 600px)
+{
+    .display .all
+{
+    flex-basis: 50%;
+    padding: 10px;
+}
+    .display h1
+{
+    font-size: 80px;
+    font-weight: 800;
+}
 }

@@ -74,8 +74,14 @@ header
 
 header .logo
 {
-    font-size: 30px;
-    color: black\;
+    width: 8%;
+    color: black;
+
+}
+
+header  img
+{
+    width: 80%;
 }
 
 
@@ -116,12 +122,8 @@ header #btn
 header .fa-bars
 {
     font-size: 30px;
-<<<<<<< HEAD
     color: white;
     cursor: pointer;
-=======
-    color: black;
->>>>>>> b1583f700397dfdc7ed1a18e3a8f940c3dc5b512
 }
 
 header .fa-envelope
@@ -139,6 +141,19 @@ header .fa-envelope:hover
 
 @media only screen and (max-width: 600px) 
 {
+
+
+header .logo
+{
+    width: 25%;
+    color: black;
+
+}
+
+header  img
+{
+    width: 80%;
+}
     header .menu
 {
     position: absolute;

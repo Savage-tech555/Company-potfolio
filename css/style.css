@@ -63,6 +63,7 @@ body::-webkit-scrollbar
 
 header
 {
+    position: fixed;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -101,7 +102,7 @@ header .menu li
 header .menu li a
 {
     text-decoration: none;
-    color: black;
+    color: white;
     transition: 2s ease;
     padding: 10px;
     font-weight: 600;
@@ -663,6 +664,7 @@ img
     background-position: center;
     background-size: cover;
     padding: 5px;
+    margin-top: 40px;
 }
 
 .flexin
